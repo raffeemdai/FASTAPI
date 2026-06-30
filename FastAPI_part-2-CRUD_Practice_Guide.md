@@ -1,4 +1,5 @@
 # FastAPI CRUD Practice Guide
+refer : https://dev.to/zeroshotanu/fastapi-for-ai-engineers-part-2-building-your-first-crud-api-lpl
 
 ## Overview
 
