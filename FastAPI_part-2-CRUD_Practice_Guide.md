@@ -435,6 +435,12 @@ DELETE /student/{id}
 Deletes data.
 
 ---
+CRUD Summary
+Operation	HTTP Method
+Create	POST
+Read	GET
+Update	PUT
+Delete	DELETE
 
 # Run the Application
 
