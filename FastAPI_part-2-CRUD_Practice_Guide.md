@@ -435,12 +435,54 @@ DELETE /student/{id}
 Deletes data.
 
 ---
-CRUD Summary
-Operation	HTTP Method
-Create	POST
-Read	GET
-Update	PUT
-Delete	DELETE
+## CRUD Summary
+
+| Operation | HTTP Method |
+|-----------|------------|
+| Create | POST |
+| Read | GET |
+| Update | PUT |
+| Delete | DELETE |
+
+### Explanation
+
+#### Create (POST)
+
+Used to add new data.
+
+```http
+POST /students
+```
+
+---
+
+#### Read (GET)
+
+Used to retrieve data.
+
+```http
+GET /students
+```
+
+---
+
+#### Update (PUT)
+
+Used to modify existing data.
+
+```http
+PUT /students/1
+```
+
+---
+
+#### Delete (DELETE)
+
+Used to remove data.
+
+```http
+DELETE /students/1
+```
 
 # Run the Application
 
