@@ -401,42 +401,6 @@ DELETE
 
 # CRUD Summary
 
-## Create
-
-```http
-POST /student
-```
-
-Adds data.
-
-## Read
-
-```http
-GET /students
-GET /student/{id}
-```
-
-Fetches data.
-
-## Update
-
-```http
-PUT /student/{id}
-```
-
-Updates data.
-
-## Delete
-
-```http
-DELETE /student/{id}
-```
-
-Deletes data.
-
----
-## CRUD Summary
-
 | Operation | HTTP Method |
 |-----------|------------|
 | Create | POST |
@@ -483,6 +447,8 @@ Used to remove data.
 ```http
 DELETE /students/1
 ```
+
+---
 
 # Run the Application
 
